@@ -4,7 +4,7 @@ const bot = new Client();
 const fs = require("fs")
 const dbUser = require("./database.json")
 
-const config = require("./config.json");
+const { token } = require("./config.json")
 
 ["aliases", "commands"].forEach(function(x) { bot[x] = new Collection()});
 ["console", "command", "event"].forEach(x => require(`./handlers/${x}`)(bot));
@@ -47,4 +47,4 @@ bot.on("message", function(message) {
      // ----------------------- //
  })
 
-bot.login(config.pass);
+bot.login(token);
