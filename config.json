@@ -1,8 +1,4 @@
 {
-    "token1": "NTcyNDY3NzQ0MzgxODYxOTI5.XMcuKQ.vAaA-2camg4xCVbY69fu83lLWas",
-    "token": "NTkxNzQ1NzQ5NzQyNzgwNDI2.XQ1QQA.3DqKjHOx0mWSx-os6ZD4ggIIPFs",
-    "pass": "NjM5ODA3ODMyOTEyMjk4MDI0.XbwqVA.0PwpDNW_g9Aj0Qzk487nTwcgWFU",
-    "prefix": "-",
-    "colorT": "#363843",
-    "invite": "https://discordapp.com/api/oauth2/authorize?client_id=639807832912298024&permissions=0&scope=bot"
+ "token" : "",
+    "prefix": ""
 }
